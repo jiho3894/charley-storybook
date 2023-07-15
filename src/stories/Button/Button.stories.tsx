@@ -8,7 +8,7 @@ const meta: Meta<typeof Button> = {
   decorators: [(Story: StoryFn) => <Story />],
   tags: ['autodocs'],
   argTypes: {
-    text: { defaultValue: '버튼' },
+    text: { defaultValue: '제출하기' },
   },
 };
 
