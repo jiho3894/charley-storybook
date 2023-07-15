@@ -12,6 +12,9 @@
     "charley-storybook"
   ],
   "repository": "https://github.com/jiho3894/charley-storybook.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "engines": {
     "node": ">=10"
   },
