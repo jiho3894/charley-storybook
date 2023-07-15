@@ -19,13 +19,12 @@
     "node": ">=14"
   },
   "scripts": {
-    "build": "tsdx build && yarn build-tailwind",
+    "build": "tsdx build",
     "lint": "tsdx lint",
     "size": "size-limit",
     "storybook": "sb dev",
     "build-storybook": "sb build",
-    "release": "np",
-    "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify"
+    "release": "np"
   },
   "peerDependencies": {
     "react": ">=16"
