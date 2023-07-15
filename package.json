@@ -21,7 +21,6 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
@@ -39,10 +38,15 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
     "semi": true,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "always",
+    "printWidth": 120
   },
   "name": "charley-storybook",
   "author": "김지호",
