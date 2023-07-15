@@ -91,7 +91,6 @@
   },
   "dependencies": {
     "global": "^4.4.0",
-    "np": "^8.0.4",
-    "win-node-env": "^0.6.1"
+    "np": "^8.0.4"
   }
 }
