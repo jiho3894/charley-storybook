@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
-  purge: ['./src/stories/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/stories/**/*.{js,jsx,ts,tsx}'],
   darkMode: false,
   theme: {
     extend: {},
